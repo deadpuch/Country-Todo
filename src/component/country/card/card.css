@@ -1,0 +1,20 @@
+.BorderConatiner{
+    width:300px
+    
+}
+
+.BorderConatiner>.cntyImg{
+
+    width: 100%;
+    height: 200px;
+
+}
+
+.BorderConatiner>.cntyImg>img{
+    width: 100%;
+    height: 100%;
+}
+
+li{
+    list-style: none;
+}
