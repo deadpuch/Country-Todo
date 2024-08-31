@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../country/card/card.jsx";
 import axios from "axios";
-import Nav from "../Navbar/Nav.jsx";
+
 import "./Country.css"
 import { useNavigate } from "react-router-dom";
 
@@ -27,7 +27,6 @@ preload()
 
   return (
     <>
-      <Nav />
 
       <div
         className="d-flex justify-content-center mt-5 gap-2 pt-5 flex-wrap dataContainer"

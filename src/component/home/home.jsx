@@ -1,11 +1,11 @@
 import React from "react";
 import "./home.css"
-import Nav from "../Navbar/Nav";
+
 
 function Home() {
   return (
     <>
-      <Nav />
+
 
       <div className="backdropcontainer">
         <img src="/Backdrop.jpg" alt=""/>
